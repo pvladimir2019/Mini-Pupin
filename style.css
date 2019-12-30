@@ -1,0 +1,115 @@
+body {
+    background-color: #f6f6f6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+    
+}
+#wrapper {
+    width: 950px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border: solid 1px #a7d7f9;
+    border-radius: 4px;
+}
+header {
+    border-bottom: solid #a2a9b1 1px;
+    
+}
+h1, h2, h3 {
+    font-weight: lighter;
+    margin: 0px 0 2px 0;
+}
+a {
+    text-decoration: none;
+}
+/* header end */
+nav {
+    width: 260px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    float: left;
+    border: solid 1px #a2a9b1;
+}
+#nav-header {
+    text-align: center;
+}
+#list-1 {
+    padding: 10px 0 0 20px;
+    list-style-type: decimal;
+    margin: 0px;
+    font-size: 95%;  
+}
+/* nav end */
+aside {
+    font-size: 14px;
+    width: 260px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    float: left;
+    clear: left;
+    background-color: #f8f9fa;
+    border: solid 1px #a2a9b1;
+}
+
+.div-aside {
+    text-align: center;
+}
+.div-aside > p {
+    margin: 0 0 5px 0;
+}
+aside th, aside td {
+    vertical-align: top;
+    padding: 5px 5px 0 0;  
+}
+aside th {
+    text-align: start;
+}
+
+img[src="pic/pupin-1916.jpg"] {
+    width: 260px;
+}
+img[src="pic/NACA.jpg"] {
+    width: 260px;
+}
+/* aside end */
+section {
+    width: 660px;
+    float: right;
+    margin: 10px 0 0 0;
+
+}
+section > :nth-child(7) {
+    padding: 0 40px;
+}
+section h2, #bot-table h2, footer h2 {
+    border-bottom: 1px solid #a2a9b1;
+}
+#bot-table {
+    clear: both;
+}
+#bot-table td {
+    padding: 10px;
+}
+#bot-table tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+#bot-table th {
+    padding: 10px;
+    text-align: start;
+}
+
+/* section + bot-table end */
+footer {
+    clear: both;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
