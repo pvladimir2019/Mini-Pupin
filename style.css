@@ -69,10 +69,10 @@ aside th {
     text-align: start;
 }
 
-img[src="pic/pupin-1916.jpg"] {
+img[src="Pic/pupin-1916.jpg"] {
     width: 260px;
 }
-img[src="pic/NACA.jpg"] {
+img[src="Pic/NACA.jpg"] {
     width: 260px;
 }
 /* aside end */
@@ -82,11 +82,15 @@ section {
     margin: 10px 0 0 0;
 
 }
-section > :nth-child(7) {
+.quote {
     padding: 0 40px;
 }
 section h2, #bot-table h2, footer h2 {
     border-bottom: 1px solid #a2a9b1;
+}
+section :first-child {
+    margin: 0 0 15px 0;
+    
 }
 #bot-table {
     clear: both;
